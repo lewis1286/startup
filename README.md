@@ -6,7 +6,7 @@ taken from [this](https://towardsdatascience.com/how-to-automatically-import-you
 
 # to use:
 
-All `*.py` files in `~/.ipython/profile_default/startup/` are executed when new ipython kernel is started.  Symlink this repo into that folder ('Nix)
+All `*.py` files in `~/.ipython/profile_default/startup/` are executed when new ipython kernel is started.  Symlink `start.py` into that folder ('Nix)
 
 (from this directory)
 `ln -s start.py ~/.ipython/profile_default/startup/start.py`
